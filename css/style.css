@@ -1,0 +1,153 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+.conteiner{
+    
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.title-site{
+    color: #39414B;
+    font-family: Nunito;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 40px;
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+    text-align: center;
+
+    padding-bottom: 40px;
+}
+
+.title-task{
+    color: #39414B;
+    font-family: Nunito;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 24px;
+
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 12px;
+    padding-bottom: 11px;
+
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.text-task{
+    color: #39414B;
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.text-1{
+    margin-top: 18px;
+}
+
+.header-img{
+    width: 100%;
+}
+
+.btn-link{
+    display: block;
+    font-family: Nunito;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px 47px;
+}
+
+.btn{
+    background-color: #5EBD75;
+    width: 240px;
+    height: 60px;
+    border-radius: 6px;
+    margin-top: 40px;
+    margin-left: 465px;
+}
+
+.btn:hover{
+    background-color: #2E9948;
+}
+
+footer{
+    background-color: #39414B;
+}
+
+.title-footer{
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    color: #ffffff;
+
+    margin-top: 0;
+    margin-bottom: 9px;
+}
+
+.text-footer{
+    color: #6D7780;
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.border-task{
+    width: 570px;
+    height: 559px;
+    box-shadow: 0px 1px 4px rgba(57, 65, 75, 0.25);
+    border-radius: 6px;
+}
+
+.img-task-1{
+    display: block;
+    margin: 24px 45px;
+}
+
+.img-task-2{
+    display: block;
+    margin: 72px 120px 73px 120px;
+}
+
+.img-task-3{
+    display: block;
+    margin: 105px 58px 117px 58px;
+}
+
+.img-task-4{
+    display: block;
+    margin: 82px 10px 81px 10px;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+}
+
+.task:not(:last-child){
+    margin-top: 40px;
+}
